@@ -1,0 +1,82 @@
+/*
+	JPMV3 CRM WPI CUSTOM STYLES
+*/
+
+a.print-invoice-receipt {
+	float: right;
+}
+
+b.wpi_greeting {
+	display: block;
+	font-size:  1.714285714285714em;
+	margin-bottom: 14px;
+}
+
+table.wp_invoice_itemized_table, table.invoice_history {
+	display: block;
+	box-sizing: border-box;
+	clear: both;
+	width: 100%;
+	margin-bottom: 40px;
+	padding: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 10px;
+	background-color: #fff;
+	background-image: url(http://jpakmedia.com/images/box-top.png);
+	background-repeat: repeat-x;
+	border: 1px solid #d4d4d4;
+	border-collapse: separate;
+	border-spacing: 0em;
+}
+
+table.invoice_history {
+	margin-bottom: 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+table.wp_invoice_itemized_table tr, table.invoice_history tr {
+	display: table-row;
+}
+
+table.wp_invoice_itemized_table tr.alt_row {
+	background-color: #fafafa;
+}
+
+table.wp_invoice_itemized_table thead tr th, table.invoice_history thead tr th {
+	font-size: 2em;
+	font-weight: 300;
+	color: #840000;
+	text-align: left;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+table.invoice_history thead tr th {
+	font-size: 1em;
+	font-weight: 700;
+}
+
+table.wp_invoice_itemized_table td {
+	width: 100%;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+table.invoice_history td {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+table.wp_invoice_itemized_table tfoot {
+	font-weight: bold;
+}
+
+table.wp_invoice_itemized_table td.bottom_line_title {
+	text-align: right;
+}
+
+div.wpi_line_item_title {
+	font-weight: bold;
+}

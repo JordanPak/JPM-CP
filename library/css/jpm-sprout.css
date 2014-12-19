@@ -1,0 +1,98 @@
+/* Sprout Invoice Theme for JPM-CP */
+
+body {
+	font-family: 'Roboto',sans-serif;
+	font-weight: 300;
+	background: #f8f8f8;
+}
+
+#outer_doc_wrap {
+	padding: 0px 0 65px;
+}
+
+
+#doc_header_wrap {
+	border-color: #080808;
+	background-color: #840000;
+}
+
+.stuck #doc_header_wrap {
+	background-color: #840000;
+	border-bottom-color: #080808;
+}
+
+#header_title {
+	padding: 25px 40px;
+}
+
+#invoice #doc .doc_total, #invoice .button.primary_button {
+	background-color: #080808;
+}
+
+.header_id {
+	color: #fff;
+	text-shadow: 1px 1px 0px #6b0000,2px 2px 1px #6b0000,2px 2px 0px #6b0000;
+}
+
+#document_wrap {
+	border-color: #080808;
+}
+
+#doc dd, #line_items_totals b, #doc dt {
+	font-weight: 300;
+}
+
+#invoice #line_total {
+	color: #363B4D;
+}
+
+#line_items_totals b {
+	font-size: 1em;
+}
+
+/* Switch to Gray */
+#invoice #doc .doc_total {
+	background-color: #FAFAFA;
+}
+
+#doc .doc_total {
+	color: #363B4D;
+}
+
+/* Switch to Dark Gray */
+#invoice #doc .doc_total.doc_balance {
+	background-color: #080808
+}
+
+#invoice #doc .doc_total.doc_balance, #invoice.paid #doc .doc_total.doc_balance {
+	color: #fff;
+}
+
+address {
+	font-style: normal;
+}
+
+.line_item {
+	padding-bottom: 0px;
+	border-bottom: 1px solid #EFEFEF;
+}
+
+li.item:last-child .line_item {
+	border: none;
+}
+
+#items .line_item .column {
+	background: none;
+}
+
+#line_balance, #line_balance b {
+	font-weight: 400;
+}
+
+.dropdown .dropdown-menu, .dropdown .dropdown-panel {
+	border-radius: 0px;
+}
+
+.dropdown .dropdown-menu LI > A:hover, .dropdown .dropdown-menu LABEL:hover {
+	background-color: #EFEFEF !important;
+}
